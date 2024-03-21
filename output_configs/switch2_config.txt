@@ -1,0 +1,6 @@
+hostname switch2
+!
+interface GigabitRthernet0/1
+    description Management interface
+    ip address 10.0.1.2 255.255.255.0
+!
